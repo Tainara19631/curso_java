@@ -1,0 +1,140 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "principal",
+            "request": "launch",
+            "mainClass": "lista_metodos.principal",
+            "projectName": "curso_java"
+        },
+        {
+            "type": "java",
+            "name": "Atividade_1",
+            "request": "launch",
+            "mainClass": "lista_metodos.Atividade_1",
+            "projectName": "curso_java"
+        },
+        {
+            "type": "java",
+            "name": "Atividade_2",
+            "request": "launch",
+            "mainClass": "lista_scanner.Atividade_2",
+            "projectName": "curso_java"
+        },
+        {
+            "type": "java",
+            "name": "Atividade_1",
+            "request": "launch",
+            "mainClass": "lista_scanner.Atividade_1",
+            "projectName": "curso_java"
+        },
+        {
+            "type": "java",
+            "name": "Atividade_5",
+            "request": "launch",
+            "mainClass": "lista_arrays.Atividade_5",
+            "projectName": "curso_java"
+        },
+        {
+            "type": "java",
+            "name": "Atividade_3",
+            "request": "launch",
+            "mainClass": "lista_arrays.Atividade_3",
+            "projectName": "curso_java"
+        },
+        {
+            "type": "java",
+            "name": "Atividade_2",
+            "request": "launch",
+            "mainClass": "lista_arrays.Atividade_2",
+            "projectName": "curso_java"
+        },
+        {
+            "type": "java",
+            "name": "Atividade_4",
+            "request": "launch",
+            "mainClass": "lista_string.Atividade_4",
+            "projectName": "curso_java"
+        },
+        {
+            "type": "java",
+            "name": "Atividade_2",
+            "request": "launch",
+            "mainClass": "lista_string.Atividade_2",
+            "projectName": "curso_java"
+        },
+        {
+            "type": "java",
+            "name": "Atividade_1",
+            "request": "launch",
+            "mainClass": "lista_string.Atividade_1",
+            "projectName": "curso_java"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "curso_java"
+        },
+        {
+            "type": "java",
+            "name": "Atividade_1",
+            "request": "launch",
+            "mainClass": "lista_revisao.Atividade_1",
+            "projectName": "curso_java"
+        },
+        {
+            "type": "java",
+            "name": "Atividade_2",
+            "request": "launch",
+            "mainClass": "lista_revisao.Atividade_2",
+            "projectName": "curso_java"
+        },
+        {
+            "type": "java",
+            "name": "Atividade_3",
+            "request": "launch",
+            "mainClass": "lista_revisao.Atividade_3",
+            "projectName": "curso_java"
+        },
+        {
+            "type": "java",
+            "name": "Atividade_4",
+            "request": "launch",
+            "mainClass": "lista_revisao.Atividade_4",
+            "projectName": "curso_java"
+        },
+        {
+            "type": "java",
+            "name": "Atividade_5",
+            "request": "launch",
+            "mainClass": "lista_revisao.Atividade_5",
+            "projectName": "curso_java"
+        },
+        {
+            "type": "java",
+            "name": "Atividade_6",
+            "request": "launch",
+            "mainClass": "lista_revisao.Atividade_6",
+            "projectName": "curso_java"
+        },
+        {
+            "type": "java",
+            "name": "Desafio",
+            "request": "launch",
+            "mainClass": "lista_revisao.Desafio",
+            "projectName": "curso_java"
+        }
+    ]
+}
