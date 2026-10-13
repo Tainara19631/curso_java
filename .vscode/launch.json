@@ -8,6 +8,48 @@
             "type": "java",
             "name": "Atividade_6",
             "request": "launch",
+            "mainClass": "lista_hashSet.Atividade_6",
+            "projectName": "curso_java"
+        },
+        {
+            "type": "java",
+            "name": "Atividade_5",
+            "request": "launch",
+            "mainClass": "lista_hashSet.Atividade_5",
+            "projectName": "curso_java"
+        },
+        {
+            "type": "java",
+            "name": "Atividade_4",
+            "request": "launch",
+            "mainClass": "lista_hashSet.Atividade_4",
+            "projectName": "curso_java"
+        },
+        {
+            "type": "java",
+            "name": "Atividade_3",
+            "request": "launch",
+            "mainClass": "lista_hashSet.Atividade_3",
+            "projectName": "curso_java"
+        },
+        {
+            "type": "java",
+            "name": "Atividade_",
+            "request": "launch",
+            "mainClass": "lista_hashSet.Atividade_",
+            "projectName": "curso_java"
+        },
+        {
+            "type": "java",
+            "name": "Atividade_1",
+            "request": "launch",
+            "mainClass": "lista_hashSet.Atividade_1",
+            "projectName": "curso_java"
+        },
+        {
+            "type": "java",
+            "name": "Atividade_6",
+            "request": "launch",
             "mainClass": "lista_arrayList.Atividade_6",
             "projectName": "curso_java"
         },
