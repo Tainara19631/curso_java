@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Atividade_4",
+            "request": "launch",
+            "mainClass": "lista_foreach.Atividade_4",
+            "projectName": "curso_java"
+        },
+        {
+            "type": "java",
+            "name": "Atividade_3",
+            "request": "launch",
+            "mainClass": "lista_foreach.Atividade_3",
+            "projectName": "curso_java"
+        },
+        {
+            "type": "java",
+            "name": "Atividade_2",
+            "request": "launch",
+            "mainClass": "lista_foreach.Atividade_2",
+            "projectName": "curso_java"
+        },
+        {
+            "type": "java",
+            "name": "Atividade_1",
+            "request": "launch",
+            "mainClass": "lista_foreach.Atividade_1",
+            "projectName": "curso_java"
+        },
+        {
+            "type": "java",
             "name": "Petshop",
             "request": "launch",
             "mainClass": "projeto_petshop.Petshop",
