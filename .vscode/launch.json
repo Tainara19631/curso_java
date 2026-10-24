@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Atividade_1",
+            "request": "launch",
+            "mainClass": "lista_interface.Atividade_1",
+            "projectName": "curso_java"
+        },
+        {
+            "type": "java",
             "name": "Atividade_4",
             "request": "launch",
             "mainClass": "lista_foreach.Atividade_4",
