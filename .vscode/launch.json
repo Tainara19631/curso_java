@@ -8,6 +8,13 @@
             "type": "java",
             "name": "Atividade",
             "request": "launch",
+            "mainClass": "lista_polimorfismo.Atividade",
+            "projectName": "curso_java"
+        },
+        {
+            "type": "java",
+            "name": "Atividade",
+            "request": "launch",
             "mainClass": "lista_heranca.Atividade",
             "projectName": "curso_java"
         },
