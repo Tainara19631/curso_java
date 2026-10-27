@@ -1,0 +1,59 @@
+Questão 1: Abstração
+a) Explique, com suas palavras, o que é abstração em programação orientada a objetos.
+A abstração é escolher as informações mais importantes de um objeto e ignorar os detalhes que não são necessários, sem precisar saber como tudo funciona por trás.
+
+b) Qual a diferença entre abstração e encapsulamento?
+O encapsulamento protege os dados de uma classe e controla o acesso a eles, permitindo que sejam acessados ou modificados de maneira controlada. Já a abstração destaca as informações e funcionalidades importantes de um objeto, ignorando detalhes desnecessários para quem o utiliza.
+
+c) Quando você usa lista.add("Ana"), você sabe como o Java guarda esse elemento na memória? Por que isso é um exemplo de abstração?
+Não sei exatamente como o Java armazena o elemento na memória, pois a abstração permite que eu utilize o método lista.add("Ana") para adicionar um elemento à lista sem precisar conhecer os detalhes internos de como isso é feito.
+
+Questão 2: SOLID
+Para cada código abaixo, diga qual princípio do SOLID está sendo violado e explique como você corrigiria.
+
+a)
+java
+class Relatorio {
+    void calcularTotais() { /* ... */ }
+    void formatarEmPdf() { /* ... */ }
+    void salvarNoDisco() { /* ... */ }
+    void enviarPorEmail() { /* ... */ }
+}
+
+O princípio violado é o da Responsabilidade Única (SRP), pois a classe Relatorio possui várias responsabilidades diferentes. Eu corrigiria separando as funções em classes específicas, deixando cada classe responsável por uma única tarefa.
+
+b)
+java
+class EnviadorEmail {
+    void enviar(String tipo) {
+        if (tipo.equals("aniversario")) {
+            System.out.println("Feliz aniversário!");
+        } else if (tipo.equals("seguranca")) {
+            System.out.println("Alerta de segurança!");
+        } else if (tipo.equals("promocao")) {
+            System.out.println("Promoção imperdível!");
+        }
+    }
+}
+O princípio violado é o Aberto/Fechado (OCP), porque, para adicionar um novo tipo de mensagem, é necessário modificar a classe EnviadorEmail. Eu corrigiria criando uma interface para as mensagens e implementando cada tipo em uma classe diferente, permitindo adicionar novos tipos sem alterar o código existente.
+
+c)
+java
+class PedidoService {
+    private MySQLRepositorio repo = new MySQLRepositorio();
+
+    void finalizar() {
+        repo.salvar();
+    }
+}
+O princípio violado é a Inversão de Dependência (DIP), pois a classe PedidoService depende diretamente da classe concreta MySQLRepositorio. Eu corrigiria criando uma interface Repositorio e fazendo PedidoService depender dela, recebendo a implementação pelo construtor. Assim, seria possível trocar o banco de dados sem precisar modificar PedidoService.
+
+
+Questão 4: Modificadores de acesso
+
+Explique quem pode acessar um atributo ou método declarado com cada modificador:
+
+a) private Acesso restrito a propria classe.
+b) default (sem modificador) Visivel apemas no pacote.
+c) protected Acesso vai pacote ou Herança.
+d) public Livre acesso a qualquer um.
