@@ -8,6 +8,13 @@
             "type": "java",
             "name": "Atividade",
             "request": "launch",
+            "mainClass": "lista_revisao1610.Atividade",
+            "projectName": "curso_java"
+        },
+        {
+            "type": "java",
+            "name": "Atividade",
+            "request": "launch",
             "mainClass": "lista_encapsulamento.Atividade",
             "projectName": "curso_java"
         },
