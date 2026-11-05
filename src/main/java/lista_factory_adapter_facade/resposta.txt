@@ -1,0 +1,32 @@
+Explique com suas palavras qual problema o Factory resolve. O que aconteceria se os ifs que decidem qual objeto criar ficassem espalhados pelo main e por outras partes do programa, e depois surgisse um tipo novo?
+A Factory serve para criar um obejto ela centraliza tudo em uma classe só evitando que ao fazermos uma alteração tenhamos que modificar o codigo em varios pontos.
+Caso os ifs ficassem espalhados pela main ou restante do codigo ao sofrer uma alteração ou acrescentar outro objeto teriamos um trabalho de prrocurar onde está essas informações e deixa o codigo extenso e desorganizado.
+
+Questão 2. O método da fábrica normalmente devolve o objeto criado com qual tipo?
+• a) O tipo da classe concreta (ex.: Cachorro)
+• b) O tipo da interface (ex.: Animal)
+• c) String
+• d) Não devolve nada (void)
+
+Letra b
+
+Questão 4. Seu sistema precisa usar uma classe de pagamento de outra empresa, mas ela não implementa a sua interface. Por que não dá para simplesmente escrever implements na classe dela? O que você faz no lugar?
+É porque a classe externa não foi criada para implementar a nossa interface e não podemos alterar diretamente o código dela (por exemplo, quando vem de uma biblioteca de terceiros).
+Criamos uma classe Adapter que implementa nossa interface e utiliza a classe externa por dentro.
+
+Questão 5. Em um Adapter, onde fica a tradução (por exemplo, a conversão de dólar para real)?
+• a) Na classe de fora
+• b) Na interface
+• c) No método implementado da interface, dentro do adapter
+• d) No main, antes de chamar o método
+
+Letra c
+
+ 7. Explique com suas palavras qual problema o Facade resolve. Se quiser, use o exemplo do síndico do condomínio ou crie outro.
+ Ele resolve o problema de termos uma classe com varias responsabilidades
+
+ Questão 8. Marque V (verdadeiro) ou F (falso):
+• (F ) A fachada precisa implementar uma interface.
+• ( F) A fachada guarda as classes envolvidas no processo em atributos.
+• (F ) Depois que a fachada existe, é proibido usar as outras classes diretamente.
+
