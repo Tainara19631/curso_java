@@ -1,0 +1,11 @@
+Questão 1. Uma açaiteria vende açaí com qualquer combinação de adicionais: granola, leite ninho, morango, paçoca. Por que criar uma classe para cada combinação (AcaiComGranola, AcaiComGranolaEMorango, AcaiComMorangoEPacoca...) é um problema? O que o Decorator faz no lugar?
+Pq ficamos com muitas classes o decorator faz com que a gente possa adicionar novas funcionalidades sem alterar a classe principal.
+
+Questão 2. Em um Decorator, por que a classe AcaiDecorator tem implements Acai?
+
+a) Para poder ser criada com new
+b) Para que um adicional também conte como açaí e possa ir dentro de outro adicional
+c) Para herdar o preço do açaí simples
+d) Para não precisar usar o super
+
+Letra b
