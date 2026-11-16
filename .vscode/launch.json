@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Atividade3",
+            "request": "launch",
+            "mainClass": "lista_stream.Atividade3",
+            "projectName": "curso_java"
+        },
+        {
+            "type": "java",
+            "name": "Atividade2",
+            "request": "launch",
+            "mainClass": "lista_stream.Atividade2",
+            "projectName": "curso_java"
+        },
+        {
+            "type": "java",
+            "name": "Atividade_1",
+            "request": "launch",
+            "mainClass": "lista_stream.Atividade_1",
+            "projectName": "curso_java"
+        },
+        {
+            "type": "java",
             "name": "Atividade",
             "request": "launch",
             "mainClass": "lista_builder.Atividade",
